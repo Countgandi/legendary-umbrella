@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include "Renderer.h"
 
 int main() {
-	std::cerr << "Yo pweeps" << std::endl;
+	Renderer renderer;
+
+	std::cout << "yes";
 
 	return 0;
 }
